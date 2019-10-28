@@ -1,0 +1,15 @@
+server:
+  port: 6666
+  servlet:
+    context-path: /config
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+          username: fengyantao
+          password:
+          search-paths: fileDir
